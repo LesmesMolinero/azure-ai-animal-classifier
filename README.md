@@ -38,3 +38,6 @@ python predict_file.py
 #o
 python predict_url.py
 ```
+## Aviso importante
+Este proyecto utilizaba un servicio de Azure Custom Vision que ha sido eliminado para evitar cargos adicionales.
+Por tanto, el clasificador ya no funcionará a menos que configures tu propio recurso en Azure y actualices la clave de predicción (AZURE_PREDICTION_KEY) en el archivo .env.
