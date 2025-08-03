@@ -24,14 +24,17 @@ Envías una imagen (por archivo o URL), y el modelo predice a qué categoría pe
 1. Crea un archivo `.env` con tu clave de predicción:
 
 ```env
-AZURE_PREDICTION_KEY="tu_clave_secreta"```
+AZURE_PREDICTION_KEY="tu_clave_secreta"
+```
 
 2. Instala las dependencias:
 ```bash
-pip install -r requirements.txt```
+pip install -r requirements.txt
+```
 
 3. Ejecuta el clasificador con:
 ```bash
 python predict_file.py
 # o
-python predict_url.py```
+python predict_url.py
+```
