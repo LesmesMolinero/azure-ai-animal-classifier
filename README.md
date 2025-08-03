@@ -35,6 +35,6 @@ pip install -r requirements.txt
 3. Ejecuta el clasificador con:
 ```bash
 python predict_file.py
-# o
+#o
 python predict_url.py
 ```
