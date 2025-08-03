@@ -27,11 +27,11 @@ Envías una imagen (por archivo o URL), y el modelo predice a qué categoría pe
 AZURE_PREDICTION_KEY="tu_clave_secreta"
 
 2. Instala las dependencias:
-
+```bash
 pip install -r requirements.txt
 
 3. Ejecuta el clasificador con:
-
+```bash
 python predict_file.py
-o
+# o
 python predict_url.py
