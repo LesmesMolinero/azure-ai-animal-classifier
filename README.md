@@ -2,24 +2,24 @@
 
 Este proyecto es un **clasificador de imágenes** desarrollado con [Azure Custom Vision](https://customvision.ai) que distingue entre tres categorías: **perros**, **gatos** y **conejos**.
 
-## 🧠 ¿Qué hace?
+## ¿Qué hace?
 Envías una imagen (por archivo o URL), y el modelo predice a qué categoría pertenece con un porcentaje de confianza.
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 - `predict_file.py`: predice usando una imagen local
 - `predict_url.py`: predice usando una URL
 - `.env`: contiene tu clave de predicción (no se sube a GitHub)
 - `requirements.txt`: dependencias necesarias
 
-## 🛠️ Tecnologías usadas
+## Tecnologías usadas
 
 - Python 3.x
 - Azure Custom Vision (Classification)
 - `requests`
 - `python-dotenv`
 
-## 🚀 Cómo ejecutar
+## Cómo ejecutar
 
 1. Crea un archivo `.env` con tu clave de predicción:
 
